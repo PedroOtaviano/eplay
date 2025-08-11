@@ -1,0 +1,20 @@
+Links
+
+API utilizada durante as aulas
+
+https://ebac-fake-api.vercel.app/api/eplay/promocoes
+https://ebac-fake-api.vercel.app/api/eplay/acao
+https://ebac-fake-api.vercel.app/api/eplay/destaque
+https://ebac-fake-api.vercel.app/api/eplay/em-breve
+https://ebac-fake-api.vercel.app/api/eplay/esportes
+https://ebac-fake-api.vercel.app/api/eplay/luta
+https://ebac-fake-api.vercel.app/api/eplay/rpg
+https://ebac-fake-api.vercel.app/api/eplay/simulacao
+
+https://fake-api-tau.vercel.app/api/eplay/jogos/ID - ID vai do 1 ao 19
+
+API para ser utilizada nos exercícios
+
+https://ebac-fake-api.vercel.app/api/efood/restaurantes
+https://ebac-fake-api.vercel.app/api/efood/restaurantes/ID  - ID vai do 1 ao 6
+
