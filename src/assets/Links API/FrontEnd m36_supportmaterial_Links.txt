@@ -10,6 +10,7 @@ https://ebac-fake-api.vercel.app/api/eplay/esportes
 https://ebac-fake-api.vercel.app/api/eplay/luta
 https://ebac-fake-api.vercel.app/api/eplay/rpg
 https://ebac-fake-api.vercel.app/api/eplay/simulacao
+https://ebac-fake-api.vercel.app/api/eplay/checkout
 
 https://fake-api-tau.vercel.app/api/eplay/jogos/ID - ID vai do 1 ao 19
 
