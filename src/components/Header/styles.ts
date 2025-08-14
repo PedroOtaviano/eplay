@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { breakpoints, cores } from '../../styles'
+import { breakpoints, colors } from '../../styles'
 
 export const Links = styled.ul`
   display: flex;
@@ -12,13 +12,17 @@ export const Links = styled.ul`
 `
 
 export const HeaderBar = styled.header`
-  background-color: ${cores.cinza};
+  background-color: ${colors.gray};
   padding: 24px;
   border-radius: 16px;
   margin-bottom: 80px;
 
+  h1 {
+    line-height: 0;
+  }
+
   a {
-    color: ${cores.branca};
+    color: ${colors.white};
     text-decoration: none;
     font-weight: bold;
   }
@@ -48,8 +52,10 @@ export const LinkItem = styled.li`
   }
 `
 
-export const CartButton = styled.a`
+export const CartButton = styled.span`
   display: flex;
+  cursor: pointer;
+  font-weight: bold;
 
   img {
     margin-left: 16px;
@@ -68,7 +74,7 @@ export const Hamburguer = styled.div`
     height: 2px;
     display: block;
     width: 100%;
-    background-color: ${cores.branca};
+    background-color: ${colors.white};
     margin-bottom: 4px;
   }
 

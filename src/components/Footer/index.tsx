@@ -13,16 +13,36 @@ const Footer = () => {
               <Link to="/categories#rpg">RPG</Link>
             </li>
             <li>
-              <Link to="/categories#action">Ação</Link>
+              <Link
+                title="Clique aqui para acessar jogos de RPG"
+                to="/categories#action"
+              >
+                Ação
+              </Link>
             </li>
             <li>
-              <Link to="/categories#sport">Esportes</Link>
+              <Link
+                title="Clique aqui para acessar jogos de esportes"
+                to="/categories#sport"
+              >
+                Esportes
+              </Link>
             </li>
             <li>
-              <Link to="/categories#simulation">Simulação</Link>
+              <Link
+                title="Clique aqui para acessar jogos de simulação"
+                to="/categories#simulation"
+              >
+                Simulação
+              </Link>
             </li>
             <li>
-              <Link to="/categories#fighting">Luta</Link>
+              <Link
+                title="Clique aqui para acessar jogos de luta"
+                to="/categories#fighting"
+              >
+                Luta
+              </Link>
             </li>
           </Links>
         </FooterSection>
@@ -30,10 +50,20 @@ const Footer = () => {
           <SectionTitle>Acesso Rápido</SectionTitle>
           <Links>
             <li>
-              <Link to="/#on-sale">Promoções</Link>
+              <Link
+                title="Clique aqui para acessar a seção de promoções"
+                to="/#on-sale"
+              >
+                Promoções
+              </Link>
             </li>
             <li>
-              <Link to="/#coming-soon">Em breve</Link>
+              <Link
+                title="Clique aqui para acessar a seçao de em breve"
+                to="/#coming-soon"
+              >
+                Em breve
+              </Link>
             </li>
           </Links>
         </FooterSection>
